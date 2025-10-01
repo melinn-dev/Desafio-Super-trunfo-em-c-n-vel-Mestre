@@ -65,30 +65,31 @@ int main()
               estado2, estado2, codigo2, nome2, populacao2, área2, pib2, turistico2, densidade2, pibpercapta2, superpoder2);
 
        // comparaçao das cartas
-       /*int comparacaopopulacao1 =  populacao1 > populacao2;
-        int comparacaoarea1 = área1 > área2;
-        int comparacaopib1 = pib1 > pib2;
-        int comparacaopontos1 = turistico1 > turistico2;
-        int comparacaodensidade1 = densidade1 > densidade2;
-        int comparacaopibpercapita1 = pibpercapta1 > pibpercapta2;
-        int comparacaosuperpoder1 = superpoder1 > superpoder2;*/
+      /*int comparacaopopulacao1 =  populacao1 > populacao2; 
+       int comparacaoarea1 = área1 > área2;
+       int comparacaopib1 = pib1 > pib2; 
+       int comparacaopontos1 = turistico1 > turistico2;
+       int comparacaodensidade1 = densidade1 > densidade2; 
+       int comparacaopibpercapita1 = pibpercapta1 > pibpercapta2;
+       int comparacaosuperpoder1 = superpoder1 > superpoder2;*/
 
-       printf("----------------------resultados----------------------\n");
-       printf(
-           "população: carta 1 venceu (%d)\n"
-           "área: carta 1 venceu (%d)\n"
-           "PIB: carta 1 venceu (%d)\n"
-           "pontos turísticos: carta 1 venceu (%d)\n"
-           "densidade populacional: carta 1 venceu (%d)\n"
-           "PIB per capita: carta 1 venceu (%d)\n"
-           "super poder: carta 1 venceu (%d)\n",
-           populacao1 > populacao2,
-           área1 > área2,
-           pib1 > pib2,
-           turistico1 > turistico2,
-           densidade1 > densidade2,
-           pibpercapta1 > pibpercapta2,
-           superpoder1 > superpoder2);
+printf("----------------------resultados----------------------\n");
+printf(
+    "população: carta 1 venceu (%d)\n"
+    "área: carta 1 venceu (%d)\n"
+    "PIB: carta 1 venceu (%d)\n"
+    "pontos turísticos: carta 1 venceu (%d)\n"
+    "densidade populacional: carta 1 venceu (%d)\n"
+    "PIB per capita: carta 1 venceu (%d)\n"
+    "super poder: carta 1 venceu (%d)\n",
+    populacao1 > populacao2,
+    área1 > área2,
+    pib1 > pib2,
+    turistico1 > turistico2,
+    densidade1 > densidade2,
+    pibpercapta1 > pibpercapta2,
+    superpoder1 > superpoder2
+);
 
        return 0;
 }
